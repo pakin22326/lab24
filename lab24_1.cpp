@@ -68,7 +68,6 @@ void List::remove(int idx){
 
     Node *temp;
 
-    // ลบตัวแรก
     if(idx == 0){
         temp = root;
         root = root->next;
